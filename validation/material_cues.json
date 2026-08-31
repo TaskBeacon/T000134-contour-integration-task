@@ -1,0 +1,511 @@
+{
+  "status": "PASS",
+  "proxy_definition": "undirected18..50px neighbor graph; each bar within25degrees of joining chord; component size is conservative upper bound on connected chain length",
+  "max_null_component": 11,
+  "maximum_paired_mean_gray_difference": 0.00238037109375,
+  "maximum_paired_pixel_sd_difference": 0.0032378458285471368,
+  "maximum_clipped_pixels": 0,
+  "limitations": "Proxy misses strongly bent paths and does not establish perceptual discriminability; no human pilot. Identical coordinates remove all density/spacing-only classifiers exactly; orientation multisets remove global histogram-only classifiers exactly. Pixel statistics remain numerically near-matched, not bit-exact.",
+  "rows": [
+    {
+      "item_id": "b15_00",
+      "signal_largest_local_alignment_component": 16,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_01",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_02",
+      "signal_largest_local_alignment_component": 15,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b15_03",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_04",
+      "signal_largest_local_alignment_component": 23,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b15_05",
+      "signal_largest_local_alignment_component": 12,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_06",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_07",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_08",
+      "signal_largest_local_alignment_component": 15,
+      "null_largest_local_alignment_component": 10
+    },
+    {
+      "item_id": "b15_09",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_10",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 8
+    },
+    {
+      "item_id": "b15_11",
+      "signal_largest_local_alignment_component": 17,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b15_12",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b15_13",
+      "signal_largest_local_alignment_component": 12,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_14",
+      "signal_largest_local_alignment_component": 16,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b15_15",
+      "signal_largest_local_alignment_component": 17,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_16",
+      "signal_largest_local_alignment_component": 16,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b15_17",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b15_18",
+      "signal_largest_local_alignment_component": 16,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b15_19",
+      "signal_largest_local_alignment_component": 15,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b30_00",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b30_01",
+      "signal_largest_local_alignment_component": 15,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_02",
+      "signal_largest_local_alignment_component": 12,
+      "null_largest_local_alignment_component": 9
+    },
+    {
+      "item_id": "b30_03",
+      "signal_largest_local_alignment_component": 18,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b30_04",
+      "signal_largest_local_alignment_component": 15,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_05",
+      "signal_largest_local_alignment_component": 12,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_06",
+      "signal_largest_local_alignment_component": 18,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b30_07",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_08",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b30_09",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b30_10",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_11",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_12",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b30_13",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_14",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_15",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_16",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_17",
+      "signal_largest_local_alignment_component": 14,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b30_18",
+      "signal_largest_local_alignment_component": 13,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b30_19",
+      "signal_largest_local_alignment_component": 15,
+      "null_largest_local_alignment_component": 8
+    },
+    {
+      "item_id": "b45_00",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b45_01",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b45_02",
+      "signal_largest_local_alignment_component": 7,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_03",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_04",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b45_05",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b45_06",
+      "signal_largest_local_alignment_component": 11,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b45_07",
+      "signal_largest_local_alignment_component": 8,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_08",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_09",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b45_10",
+      "signal_largest_local_alignment_component": 10,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b45_11",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b45_12",
+      "signal_largest_local_alignment_component": 8,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_13",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b45_14",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b45_15",
+      "signal_largest_local_alignment_component": 8,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b45_16",
+      "signal_largest_local_alignment_component": 8,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_17",
+      "signal_largest_local_alignment_component": 8,
+      "null_largest_local_alignment_component": 10
+    },
+    {
+      "item_id": "b45_18",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b45_19",
+      "signal_largest_local_alignment_component": 10,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_00",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b60_01",
+      "signal_largest_local_alignment_component": 11,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_02",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b60_03",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_04",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_05",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_06",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b60_07",
+      "signal_largest_local_alignment_component": 7,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b60_08",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b60_09",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_10",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b60_11",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_12",
+      "signal_largest_local_alignment_component": 7,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_13",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b60_14",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b60_15",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b60_16",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b60_17",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b60_18",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b60_19",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 11
+    },
+    {
+      "item_id": "b75_00",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b75_01",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_02",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_03",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_04",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b75_05",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_06",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b75_07",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b75_08",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b75_09",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 9
+    },
+    {
+      "item_id": "b75_10",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b75_11",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_12",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_13",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 5
+    },
+    {
+      "item_id": "b75_14",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b75_15",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 4
+    },
+    {
+      "item_id": "b75_16",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 7
+    },
+    {
+      "item_id": "b75_17",
+      "signal_largest_local_alignment_component": 4,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b75_18",
+      "signal_largest_local_alignment_component": 5,
+      "null_largest_local_alignment_component": 6
+    },
+    {
+      "item_id": "b75_19",
+      "signal_largest_local_alignment_component": 6,
+      "null_largest_local_alignment_component": 6
+    }
+  ]
+}

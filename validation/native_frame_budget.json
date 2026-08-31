@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "settings": [
+    {
+      "mode": "qa",
+      "frame_time_seconds": 0.016395190008915962,
+      "win_fps": 59.885726010139976,
+      "nominal_report_s": 4,
+      "n_frames": 244,
+      "expected_last_flip_s": 4.057728213211521
+    },
+    {
+      "mode": "scripted_sim",
+      "frame_time_seconds": 0.016592620010487735,
+      "win_fps": 59.60772158115145,
+      "nominal_report_s": 4,
+      "n_frames": 241,
+      "expected_last_flip_s": 4.02632400020957
+    },
+    {
+      "mode": "sampler_sim",
+      "frame_time_seconds": 0.016818350018002092,
+      "win_fps": 59.93439579922524,
+      "nominal_report_s": 4,
+      "n_frames": 238,
+      "expected_last_flip_s": 3.9543236707337197
+    }
+  ],
+  "omissions": [
+    {
+      "mode": "qa",
+      "trial_id": 2,
+      "nominal_s": 4,
+      "measured_close_s": 4.051320499973372,
+      "next_intertrial_flip_s": 4.067474599927664,
+      "expected_close_s": 4.057728213211521,
+      "error_s": -0.006407713238149704,
+      "tolerance_s": 0.016698470013216136
+    },
+    {
+      "mode": "qa",
+      "trial_id": 8,
+      "nominal_s": 4,
+      "measured_close_s": 4.050740399863571,
+      "next_intertrial_flip_s": 4.067096600076177,
+      "expected_close_s": 4.057728213211521,
+      "error_s": -0.0069878133479504,
+      "tolerance_s": 0.016698470013216136
+    },
+    {
+      "mode": "qa",
+      "trial_id": 9,
+      "nominal_s": 4,
+      "measured_close_s": 4.050373000092804,
+      "next_intertrial_flip_s": 4.066793799865991,
+      "expected_close_s": 4.057728213211521,
+      "error_s": -0.007355213118716897,
+      "tolerance_s": 0.016698470013216136
+    },
+    {
+      "mode": "sampler_sim",
+      "trial_id": 3,
+      "nominal_s": 4,
+      "measured_close_s": 3.948777500074357,
+      "next_intertrial_flip_s": 3.965701499953866,
+      "expected_close_s": 3.9543236707337197,
+      "error_s": -0.0055461706593629145,
+      "tolerance_s": 0.016684910003095865
+    }
+  ],
+  "scope": "Frame-budget consistency, not exact nominal deadline. Default runtime rounds nominal/estimatedperiod then closes on lastflip (nframes-1intervals). Tolerance is one recorded displayframe, not an arbitrary widened deadline threshold."
+}

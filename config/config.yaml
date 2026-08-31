@@ -1,0 +1,2167 @@
+subinfo_fields:
+- name: subject_id
+  type: int
+  constraints:
+    min: 101
+    max: 999
+    digits: 3
+subinfo_mapping:
+  subject_id: 被试编号（3位数字）
+  Participant Information: 被试信息
+  registration_failed: 登记失败
+  registration_successful: 登记成功
+  invalid_input: '{field} 输入无效'
+window:
+  size:
+  - 1280
+  - 800
+  units: pix
+  screen: 0
+  bg_color: '#808080'
+  fullscreen: false
+  monitor_width_cm: 35.5
+  monitor_distance_cm: 60
+task:
+  task_name: Contour Integration Task
+  language: Chinese
+  voice_enabled: false
+  voice_name: zh-CN-YunyangNeural
+  save_path: ./outputs/human
+  total_blocks: 2
+  total_trials: 100
+  trial_per_block: 50
+  conditions:
+  - bend_15
+  - bend_30
+  - bend_45
+  - bend_60
+  - bend_75
+  condition_weights: null
+  exemplars_per_bend: 20
+  diagnostic: false
+  key_list:
+  - space
+  - f
+  - j
+  report_keys:
+  - f
+  - j
+  first_key: f
+  second_key: j
+  continue_key: space
+  overall_seed: 134031
+  seed_mode: same_across_sub
+  hide_cursor: true
+  delta: 0
+  material_version: gabor-paired-v1
+timing:
+  fixation_duration: 0.5
+  array_duration: 1.0
+  gap_duration: 1.0
+  report_duration: 4.0
+  intertrial_duration: 0.3
+stimuli:
+  instruction:
+    type: text
+    font: SimHei
+    text: '轮廓整合任务
+
+
+      每次会先后出现两幅灰色图案，各显示1秒。
+
+      其中一幅藏着由12个小条纹首尾相连的弯曲路径。
+
+      另一幅没有设计的路径；不要只寻找某一种方向或更密的区域。
+
+
+      每次先看中央十字，图案出现后可以自然观察整幅图。
+
+      两幅图消失、问题出现后再作答：F＝第一幅，J＝第二幅。
+
+      每次最多4秒；不确定也请尽量选择。图案中不需要按键。
+
+
+      共两组，每组50次，组间可以休息。请不要调整窗口或缩放。
+
+      此任务未做屏幕标定，没有个人视觉能力或临床常模。
+
+
+      准备好后按空格。'
+    color: black
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  fixation:
+    type: text
+    font: SimHei
+    text: +
+    color: black
+    height: 28
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  report_prompt:
+    type: text
+    font: SimHei
+    text: 哪一幅包含连续的弯曲路径？
+    color: black
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  block_break:
+    type: text
+    font: SimHei
+    text: '本组完成，可以休息。
+
+
+      请保持显示设置和观察距离不变。
+
+      按空格继续下一组。'
+    color: black
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  good_bye:
+    type: text
+    font: SimHei
+    text: '任务完成，谢谢参与。
+
+
+      按空格结束并保存数据。'
+    color: black
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_00_signal:
+    type: image
+    image: assets/arrays/b15_00_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_00_null:
+    type: image
+    image: assets/arrays/b15_00_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_01_signal:
+    type: image
+    image: assets/arrays/b15_01_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_01_null:
+    type: image
+    image: assets/arrays/b15_01_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_02_signal:
+    type: image
+    image: assets/arrays/b15_02_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_02_null:
+    type: image
+    image: assets/arrays/b15_02_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_03_signal:
+    type: image
+    image: assets/arrays/b15_03_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_03_null:
+    type: image
+    image: assets/arrays/b15_03_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_04_signal:
+    type: image
+    image: assets/arrays/b15_04_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_04_null:
+    type: image
+    image: assets/arrays/b15_04_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_05_signal:
+    type: image
+    image: assets/arrays/b15_05_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_05_null:
+    type: image
+    image: assets/arrays/b15_05_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_06_signal:
+    type: image
+    image: assets/arrays/b15_06_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_06_null:
+    type: image
+    image: assets/arrays/b15_06_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_07_signal:
+    type: image
+    image: assets/arrays/b15_07_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_07_null:
+    type: image
+    image: assets/arrays/b15_07_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_08_signal:
+    type: image
+    image: assets/arrays/b15_08_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_08_null:
+    type: image
+    image: assets/arrays/b15_08_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_09_signal:
+    type: image
+    image: assets/arrays/b15_09_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_09_null:
+    type: image
+    image: assets/arrays/b15_09_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_10_signal:
+    type: image
+    image: assets/arrays/b15_10_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_10_null:
+    type: image
+    image: assets/arrays/b15_10_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_11_signal:
+    type: image
+    image: assets/arrays/b15_11_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_11_null:
+    type: image
+    image: assets/arrays/b15_11_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_12_signal:
+    type: image
+    image: assets/arrays/b15_12_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_12_null:
+    type: image
+    image: assets/arrays/b15_12_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_13_signal:
+    type: image
+    image: assets/arrays/b15_13_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_13_null:
+    type: image
+    image: assets/arrays/b15_13_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_14_signal:
+    type: image
+    image: assets/arrays/b15_14_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_14_null:
+    type: image
+    image: assets/arrays/b15_14_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_15_signal:
+    type: image
+    image: assets/arrays/b15_15_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_15_null:
+    type: image
+    image: assets/arrays/b15_15_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_16_signal:
+    type: image
+    image: assets/arrays/b15_16_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_16_null:
+    type: image
+    image: assets/arrays/b15_16_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_17_signal:
+    type: image
+    image: assets/arrays/b15_17_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_17_null:
+    type: image
+    image: assets/arrays/b15_17_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_18_signal:
+    type: image
+    image: assets/arrays/b15_18_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_18_null:
+    type: image
+    image: assets/arrays/b15_18_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_19_signal:
+    type: image
+    image: assets/arrays/b15_19_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b15_19_null:
+    type: image
+    image: assets/arrays/b15_19_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_00_signal:
+    type: image
+    image: assets/arrays/b30_00_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_00_null:
+    type: image
+    image: assets/arrays/b30_00_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_01_signal:
+    type: image
+    image: assets/arrays/b30_01_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_01_null:
+    type: image
+    image: assets/arrays/b30_01_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_02_signal:
+    type: image
+    image: assets/arrays/b30_02_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_02_null:
+    type: image
+    image: assets/arrays/b30_02_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_03_signal:
+    type: image
+    image: assets/arrays/b30_03_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_03_null:
+    type: image
+    image: assets/arrays/b30_03_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_04_signal:
+    type: image
+    image: assets/arrays/b30_04_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_04_null:
+    type: image
+    image: assets/arrays/b30_04_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_05_signal:
+    type: image
+    image: assets/arrays/b30_05_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_05_null:
+    type: image
+    image: assets/arrays/b30_05_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_06_signal:
+    type: image
+    image: assets/arrays/b30_06_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_06_null:
+    type: image
+    image: assets/arrays/b30_06_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_07_signal:
+    type: image
+    image: assets/arrays/b30_07_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_07_null:
+    type: image
+    image: assets/arrays/b30_07_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_08_signal:
+    type: image
+    image: assets/arrays/b30_08_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_08_null:
+    type: image
+    image: assets/arrays/b30_08_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_09_signal:
+    type: image
+    image: assets/arrays/b30_09_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_09_null:
+    type: image
+    image: assets/arrays/b30_09_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_10_signal:
+    type: image
+    image: assets/arrays/b30_10_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_10_null:
+    type: image
+    image: assets/arrays/b30_10_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_11_signal:
+    type: image
+    image: assets/arrays/b30_11_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_11_null:
+    type: image
+    image: assets/arrays/b30_11_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_12_signal:
+    type: image
+    image: assets/arrays/b30_12_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_12_null:
+    type: image
+    image: assets/arrays/b30_12_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_13_signal:
+    type: image
+    image: assets/arrays/b30_13_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_13_null:
+    type: image
+    image: assets/arrays/b30_13_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_14_signal:
+    type: image
+    image: assets/arrays/b30_14_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_14_null:
+    type: image
+    image: assets/arrays/b30_14_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_15_signal:
+    type: image
+    image: assets/arrays/b30_15_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_15_null:
+    type: image
+    image: assets/arrays/b30_15_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_16_signal:
+    type: image
+    image: assets/arrays/b30_16_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_16_null:
+    type: image
+    image: assets/arrays/b30_16_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_17_signal:
+    type: image
+    image: assets/arrays/b30_17_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_17_null:
+    type: image
+    image: assets/arrays/b30_17_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_18_signal:
+    type: image
+    image: assets/arrays/b30_18_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_18_null:
+    type: image
+    image: assets/arrays/b30_18_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_19_signal:
+    type: image
+    image: assets/arrays/b30_19_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b30_19_null:
+    type: image
+    image: assets/arrays/b30_19_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_00_signal:
+    type: image
+    image: assets/arrays/b45_00_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_00_null:
+    type: image
+    image: assets/arrays/b45_00_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_01_signal:
+    type: image
+    image: assets/arrays/b45_01_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_01_null:
+    type: image
+    image: assets/arrays/b45_01_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_02_signal:
+    type: image
+    image: assets/arrays/b45_02_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_02_null:
+    type: image
+    image: assets/arrays/b45_02_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_03_signal:
+    type: image
+    image: assets/arrays/b45_03_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_03_null:
+    type: image
+    image: assets/arrays/b45_03_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_04_signal:
+    type: image
+    image: assets/arrays/b45_04_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_04_null:
+    type: image
+    image: assets/arrays/b45_04_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_05_signal:
+    type: image
+    image: assets/arrays/b45_05_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_05_null:
+    type: image
+    image: assets/arrays/b45_05_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_06_signal:
+    type: image
+    image: assets/arrays/b45_06_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_06_null:
+    type: image
+    image: assets/arrays/b45_06_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_07_signal:
+    type: image
+    image: assets/arrays/b45_07_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_07_null:
+    type: image
+    image: assets/arrays/b45_07_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_08_signal:
+    type: image
+    image: assets/arrays/b45_08_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_08_null:
+    type: image
+    image: assets/arrays/b45_08_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_09_signal:
+    type: image
+    image: assets/arrays/b45_09_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_09_null:
+    type: image
+    image: assets/arrays/b45_09_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_10_signal:
+    type: image
+    image: assets/arrays/b45_10_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_10_null:
+    type: image
+    image: assets/arrays/b45_10_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_11_signal:
+    type: image
+    image: assets/arrays/b45_11_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_11_null:
+    type: image
+    image: assets/arrays/b45_11_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_12_signal:
+    type: image
+    image: assets/arrays/b45_12_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_12_null:
+    type: image
+    image: assets/arrays/b45_12_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_13_signal:
+    type: image
+    image: assets/arrays/b45_13_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_13_null:
+    type: image
+    image: assets/arrays/b45_13_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_14_signal:
+    type: image
+    image: assets/arrays/b45_14_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_14_null:
+    type: image
+    image: assets/arrays/b45_14_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_15_signal:
+    type: image
+    image: assets/arrays/b45_15_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_15_null:
+    type: image
+    image: assets/arrays/b45_15_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_16_signal:
+    type: image
+    image: assets/arrays/b45_16_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_16_null:
+    type: image
+    image: assets/arrays/b45_16_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_17_signal:
+    type: image
+    image: assets/arrays/b45_17_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_17_null:
+    type: image
+    image: assets/arrays/b45_17_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_18_signal:
+    type: image
+    image: assets/arrays/b45_18_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_18_null:
+    type: image
+    image: assets/arrays/b45_18_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_19_signal:
+    type: image
+    image: assets/arrays/b45_19_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b45_19_null:
+    type: image
+    image: assets/arrays/b45_19_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_00_signal:
+    type: image
+    image: assets/arrays/b60_00_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_00_null:
+    type: image
+    image: assets/arrays/b60_00_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_01_signal:
+    type: image
+    image: assets/arrays/b60_01_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_01_null:
+    type: image
+    image: assets/arrays/b60_01_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_02_signal:
+    type: image
+    image: assets/arrays/b60_02_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_02_null:
+    type: image
+    image: assets/arrays/b60_02_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_03_signal:
+    type: image
+    image: assets/arrays/b60_03_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_03_null:
+    type: image
+    image: assets/arrays/b60_03_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_04_signal:
+    type: image
+    image: assets/arrays/b60_04_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_04_null:
+    type: image
+    image: assets/arrays/b60_04_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_05_signal:
+    type: image
+    image: assets/arrays/b60_05_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_05_null:
+    type: image
+    image: assets/arrays/b60_05_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_06_signal:
+    type: image
+    image: assets/arrays/b60_06_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_06_null:
+    type: image
+    image: assets/arrays/b60_06_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_07_signal:
+    type: image
+    image: assets/arrays/b60_07_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_07_null:
+    type: image
+    image: assets/arrays/b60_07_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_08_signal:
+    type: image
+    image: assets/arrays/b60_08_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_08_null:
+    type: image
+    image: assets/arrays/b60_08_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_09_signal:
+    type: image
+    image: assets/arrays/b60_09_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_09_null:
+    type: image
+    image: assets/arrays/b60_09_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_10_signal:
+    type: image
+    image: assets/arrays/b60_10_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_10_null:
+    type: image
+    image: assets/arrays/b60_10_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_11_signal:
+    type: image
+    image: assets/arrays/b60_11_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_11_null:
+    type: image
+    image: assets/arrays/b60_11_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_12_signal:
+    type: image
+    image: assets/arrays/b60_12_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_12_null:
+    type: image
+    image: assets/arrays/b60_12_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_13_signal:
+    type: image
+    image: assets/arrays/b60_13_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_13_null:
+    type: image
+    image: assets/arrays/b60_13_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_14_signal:
+    type: image
+    image: assets/arrays/b60_14_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_14_null:
+    type: image
+    image: assets/arrays/b60_14_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_15_signal:
+    type: image
+    image: assets/arrays/b60_15_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_15_null:
+    type: image
+    image: assets/arrays/b60_15_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_16_signal:
+    type: image
+    image: assets/arrays/b60_16_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_16_null:
+    type: image
+    image: assets/arrays/b60_16_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_17_signal:
+    type: image
+    image: assets/arrays/b60_17_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_17_null:
+    type: image
+    image: assets/arrays/b60_17_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_18_signal:
+    type: image
+    image: assets/arrays/b60_18_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_18_null:
+    type: image
+    image: assets/arrays/b60_18_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_19_signal:
+    type: image
+    image: assets/arrays/b60_19_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b60_19_null:
+    type: image
+    image: assets/arrays/b60_19_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_00_signal:
+    type: image
+    image: assets/arrays/b75_00_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_00_null:
+    type: image
+    image: assets/arrays/b75_00_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_01_signal:
+    type: image
+    image: assets/arrays/b75_01_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_01_null:
+    type: image
+    image: assets/arrays/b75_01_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_02_signal:
+    type: image
+    image: assets/arrays/b75_02_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_02_null:
+    type: image
+    image: assets/arrays/b75_02_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_03_signal:
+    type: image
+    image: assets/arrays/b75_03_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_03_null:
+    type: image
+    image: assets/arrays/b75_03_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_04_signal:
+    type: image
+    image: assets/arrays/b75_04_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_04_null:
+    type: image
+    image: assets/arrays/b75_04_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_05_signal:
+    type: image
+    image: assets/arrays/b75_05_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_05_null:
+    type: image
+    image: assets/arrays/b75_05_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_06_signal:
+    type: image
+    image: assets/arrays/b75_06_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_06_null:
+    type: image
+    image: assets/arrays/b75_06_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_07_signal:
+    type: image
+    image: assets/arrays/b75_07_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_07_null:
+    type: image
+    image: assets/arrays/b75_07_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_08_signal:
+    type: image
+    image: assets/arrays/b75_08_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_08_null:
+    type: image
+    image: assets/arrays/b75_08_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_09_signal:
+    type: image
+    image: assets/arrays/b75_09_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_09_null:
+    type: image
+    image: assets/arrays/b75_09_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_10_signal:
+    type: image
+    image: assets/arrays/b75_10_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_10_null:
+    type: image
+    image: assets/arrays/b75_10_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_11_signal:
+    type: image
+    image: assets/arrays/b75_11_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_11_null:
+    type: image
+    image: assets/arrays/b75_11_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_12_signal:
+    type: image
+    image: assets/arrays/b75_12_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_12_null:
+    type: image
+    image: assets/arrays/b75_12_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_13_signal:
+    type: image
+    image: assets/arrays/b75_13_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_13_null:
+    type: image
+    image: assets/arrays/b75_13_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_14_signal:
+    type: image
+    image: assets/arrays/b75_14_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_14_null:
+    type: image
+    image: assets/arrays/b75_14_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_15_signal:
+    type: image
+    image: assets/arrays/b75_15_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_15_null:
+    type: image
+    image: assets/arrays/b75_15_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_16_signal:
+    type: image
+    image: assets/arrays/b75_16_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_16_null:
+    type: image
+    image: assets/arrays/b75_16_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_17_signal:
+    type: image
+    image: assets/arrays/b75_17_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_17_null:
+    type: image
+    image: assets/arrays/b75_17_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_18_signal:
+    type: image
+    image: assets/arrays/b75_18_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_18_null:
+    type: image
+    image: assets/arrays/b75_18_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_19_signal:
+    type: image
+    image: assets/arrays/b75_19_signal.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+  b75_19_null:
+    type: image
+    image: assets/arrays/b75_19_null.png
+    size:
+    - 512
+    - 512
+    pos:
+    - 0
+    - 0
+    units: pix
+triggers:
+  map:
+    experiment_start: 1
+    fixation_onset: 10
+    interval_one_onset: 20
+    gap_onset: 30
+    interval_two_onset: 40
+    report_onset: 50
+    first_response: 51
+    second_response: 52
+    omission: 59
+    intertrial_onset: 60
+    experiment_end: 99
+  driver:
+    type: mock
+  policy:
+    strict: false
+  timing:
+    post_delay_s: 0.0

@@ -1,0 +1,2 @@
+[task-build] python=3.10.11 required>=3.10
+[task-build] PASS: environment preflight checks passed.

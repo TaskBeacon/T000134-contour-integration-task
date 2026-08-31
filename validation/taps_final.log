@@ -1,0 +1,22 @@
+[taps-validate] task=E:\Taskbeacon\T000134-contour-integration-task contracts=v0.2.0
++ [PASS] taskbeacon
++ [PASS] required_files
++ [PASS] gitignore
++ [PASS] config_base
++ [PASS] config_qa
++ [PASS] config_scripted_sim
++ [PASS] config_sampler_sim
++ [PASS] responder_plugin
++ [PASS] runtime_main
+! [WARN] responder_context
+  - WARN: No recommended phase tokens found (any): ['choice', 'cue', 'decision', 'feedback', 'fixation', 'iti', 'response', 'target']; got none
+  suggestion: Include condition/block/task_factors context for richer simulation and audits.
++ [PASS] readme_meta
+! [WARN] changelog
+  - WARN: Missing recommended changelog section: Changed
+  - WARN: Missing recommended changelog section: Fixed
++ [PASS] reference_artifacts
+! [WARN] artifacts
+  - WARN: outputs/sim not found; sim artifact checks skipped.
+  suggestion: Run representative QA/sim sessions so artifact conventions are exercised.
+[taps-validate] summary: PASS=11 WARN=3 FAIL=0

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "proxy_definition": "undirected18..50px neighbor graph; each bar within25degrees of joining chord; component size is conservative upper bound on connected chain length",
+  "max_null_component": 11,
+  "maximum_paired_mean_gray_difference": 0.00238037109375,
+  "maximum_paired_pixel_sd_difference": 0.0032378458285471368,
+  "maximum_clipped_pixels": 0,
+  "limitations": "Proxy misses strongly bent paths and does not establish perceptual discriminability; no human pilot. Identical coordinates remove all density/spacing-only classifiers exactly; orientation multisets remove global histogram-only classifiers exactly. Pixel statistics remain numerically near-matched, not bit-exact."
+}

@@ -1,0 +1,75 @@
+{
+  "size": [
+    1280,
+    800
+  ],
+  "units": "pix",
+  "screen": 0,
+  "bg_color": "#808080",
+  "fullscreen": false,
+  "total_blocks": 1,
+  "total_trials": 10,
+  "key_list": [
+    "space",
+    "f",
+    "j"
+  ],
+  "conditions": [
+    "bend_15",
+    "bend_30",
+    "bend_45",
+    "bend_60",
+    "bend_75"
+  ],
+  "condition_weights": null,
+  "block_seed": [
+    31327
+  ],
+  "seed_mode": "same_across_sub",
+  "overall_seed": 134031,
+  "log_file": "E:\\Taskbeacon\\T000134-contour-integration-task\\outputs\\sampler_sim\\psychopy.log",
+  "res_file": "E:\\Taskbeacon\\T000134-contour-integration-task\\outputs\\sampler_sim\\sim_trace.csv",
+  "json_file": "E:\\Taskbeacon\\T000134-contour-integration-task\\outputs\\sampler_sim\\settings.json",
+  "save_path": "./outputs/human",
+  "task_name": "Contour Integration Task",
+  "trials_per_block": 10,
+  "trial_per_block": 10,
+  "monitor_width_cm": 35.5,
+  "monitor_distance_cm": 60,
+  "language": "Chinese",
+  "voice_enabled": false,
+  "voice_name": "zh-CN-YunyangNeural",
+  "exemplars_per_bend": 2,
+  "diagnostic": true,
+  "report_keys": [
+    "f",
+    "j"
+  ],
+  "first_key": "f",
+  "second_key": "j",
+  "continue_key": "space",
+  "hide_cursor": true,
+  "delta": 0,
+  "material_version": "gabor-paired-v1",
+  "fixation_duration": 0.5,
+  "array_duration": 1.0,
+  "gap_duration": 1.0,
+  "report_duration": 4.0,
+  "intertrial_duration": 0.3,
+  "subject_id": 134,
+  "triggers": {
+    "experiment_start": 1,
+    "fixation_onset": 10,
+    "interval_one_onset": 20,
+    "gap_onset": 30,
+    "interval_two_onset": 40,
+    "report_onset": 50,
+    "first_response": 51,
+    "second_response": 52,
+    "omission": 59,
+    "intertrial_onset": 60,
+    "experiment_end": 99
+  },
+  "frame_time_seconds": 0.016818350018002092,
+  "win_fps": 59.93439579922524
+}

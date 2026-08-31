@@ -1,0 +1,3 @@
+# Asset visual review
+
+Viewed actual512×512PNG files b15_00_signal, b15_00_null and b75_00_signal directly. They contain grayscale localized sinusoidal Gabor patches, not simple line/dot placeholders. Low-bend signal shows a multi-element curved trajectory; the paired null retains the exact positions but scrambles orientation relationships. Higher-bend signal retains the same material appearance without target-colored, enlarged, high-contrast or highlighted elements. No gridlines, path overlays, instructions or answer cues occur in arrays. This is an author visual inspection, not a human pilot or quantified perceptual validation. Native/browser screenshots remain separate runtime evidence.

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "mode": "qa",
+      "status": "PASS",
+      "rows": 10,
+      "correct": 5,
+      "missing": 3,
+      "interval_one_flip_span_s": [
+        1.0109822000376885,
+        1.0182558000087774
+      ],
+      "interval_two_flip_span_s": [
+        1.0146955000236595,
+        1.0172244999557734
+      ]
+    },
+    {
+      "mode": "scripted_sim",
+      "status": "PASS",
+      "rows": 10,
+      "correct": 5,
+      "missing": 0,
+      "interval_one_flip_span_s": [
+        0.9952527000568807,
+        1.0006007999181747
+      ],
+      "interval_two_flip_span_s": [
+        0.9984889000188559,
+        1.0010895000305045
+      ]
+    },
+    {
+      "mode": "sampler_sim",
+      "status": "PASS",
+      "rows": 10,
+      "correct": 2,
+      "missing": 1,
+      "interval_one_flip_span_s": [
+        0.9774549999274313,
+        0.9845726999919862
+      ],
+      "interval_two_flip_span_s": [
+        0.9821749997790903,
+        0.9847320998087525
+      ]
+    }
+  ],
+  "limitation": "Synthetic responder output and software flip spans, not human data or photodiode timing"
+}

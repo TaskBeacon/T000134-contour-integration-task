@@ -1,0 +1,23 @@
+task_id: T000134-contour-integration-task
+generated_at: '2026-08-30T23:23:00Z'
+selection_policy: provided_source_plus_supporting_literature
+citation_threshold: 100
+papers:
+- id: field1993
+  title: 'Contour integration by the human visual system: Evidence for a local association
+    field'
+  authors: []
+  year: 1993
+  journal: Vision Research
+  doi_or_url: https://pubmed.ncbi.nlm.nih.gov/8447091/
+  citation_count: 0
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - primary_protocol_source
+  - task_workflow
+  - stimulus_specification
+  - timing_parameters
+  parameter_bindings: {}
+  notes: Full methods read at Berkeley redwood/field-etal93.pdf; citations not audited
+    (0 means unknown); source-first policy.
