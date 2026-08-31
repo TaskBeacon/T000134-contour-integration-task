@@ -1,0 +1,2 @@
+# Preserve actual synthetic native CSV artifact bytes on every platform.
+/validation/python_*_synthetic.csv -text
